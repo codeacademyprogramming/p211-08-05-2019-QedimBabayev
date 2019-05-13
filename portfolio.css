@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+body{
+    height: 5000px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#top{
+    position: relative;
+    background: url(images/photo.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+
+
+}
+#top p{
+    margin-bottom: 72px;
+     
+    font-weight: 600;
+    font-size: 28px;
+}
+ #top h2{
+font-size: 84px;
+
+}
+.btn-primary {
+    border: 1px solid;
+    padding: 16px 27px;
+    color: #fff;
+    background-color: #1d809f;
+    border-color: #1d809f;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.btn-primary:hover{
+    background-color: #155d74;
+    border-color: #155d74;
+}
+#portfolio{
+    background-color: #f8f9fa;
+}
+.textholder{
+    text-align:center;
+    padding: 100px 0px;
+
+}
+.textholder p{
+    margin-bottom: 60px;
+    margin-top: 10px;
+    color: rgb(88, 88, 88);
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+.textholder h3{
+    font-size: 2em;
+
+}
+.textholder .btn-primary{
+    background-color: #343a40;
+    border-color: #343a40;
+
+}
+.textholder .btn-primary:hover{
+    background-color: #23272b;
+    border-color:#23272b;
+}
+#services{
+    background-color: #1d809f;
+
+}
+.textholder h5{
+    color:  #ecb807;
+}
+ .textholder h2{
+    color: #fff;
+    font-size: 45px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+
+
+}
+.col{
+    width: 22%;
+    text-align:center;
+}
+#services span{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 100%;
+    border-color: white;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #4f6aff;
+    margin: 0px auto;
+
+}
+.row h4{
+    margin: 15px 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+
+
+}
+.row p{
+    color: rgba(255,255,255,.7);
+
+}
+#services .col:nth-child(2) p { 
+    width: 232px;
+}
+#welcome{
+    background: url(images/photo2.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#welcome h2{
+    margin-bottom: 65px;
+    font-size: 52px;
+}
+.welcometext{
+    width: 44%;
+    margin: 0px auto;
+
+}
+#projects .textholder h2{
+    color: #393939;
+}
+
+#projects .rowmain{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    
+
+}
+.colmain{
+    width: 50%;
+    position: relative;
+    cursor: pointer;
+    
+   
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.layer{
+    border:0px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    background-color: #155c743b;
+    transition: all 0.3s linear;
+   
+
+
+}
+.txtholder{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    color: white;
+}
+.txtholder p{
+    font-weight: 400;
+    padding-top: 7px;
+    width: 90%;
+}
+.txtholder h2{
+    font-size: 13px;
+}
+
+
+.colmain:hover .layer{
+    border: 15px solid white;
+    background-color: #155c74e0;
+}
+
+
+
+
+#buttons{
+    background-color: #1d809f;
+}
+#buttons h3{
+    color: white;
+    margin-bottom: 25px;
+
+}
+#buttons .one{
+    background-color: white;
+    color: black;
+}
+#buttons .one:hover{
+    background-color:rgb(199, 198, 198);
+    
+}
+#map{
+    height: 500px;
+}
+#map img{
+ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#footer ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+ul li{
+    border: 1px solid black;
+    font-size: 24px;
+    color: white;
+    background: #1d809f;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+ul li:hover{
+    background: #124e61;
+}
+ ul li:nth-child(2){
+    margin: 50px 10px;
+}
+.footertext{
+    text-align: center;
+}
+.body{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #39393931;
+    font-size: 24px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    border: 1px solid #39393931;
+    border-radius: 3px;
+
+
+}
+.body a{
+    color: white;
+}
+.body:hover{
+   background: #39393998;
+   border: 1px solid #39393998;
+}
+@media only screen and (max-width: 768px){
+    #top{
+        background-position-x: -40px;
+        background-size: cover;
+    }
+    .col{
+        width: 50%;
+        text-align:center;
+        padding: 10px 0px;  
+    }
+    .welcometext{
+        width: 65%;
+        margin: 0px auto;
+    
+    }
+    .colmain{
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        margin: 10px 0px;
+        
+       
+    
+    }
+
+
+}
+@media only screen and (max-width:414px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    .col{
+        width: 100%;
+        text-align:center;
+        padding: 10px 0px;  
+    }
+    .colmain{
+        width: 90%;
+        position: relative;
+        cursor: pointer;
+        margin: 10px auto;
+        
+       
+    
+    }
+
+}
+@media only screen and (max-width:320px){
+    #top{
+        
+background-position-x:  -400px;        
+ }
+ #top h2{
+    font-size: 50px;
+    
+    }
+    #top p{
+         width: 90%;
+        font-size: 26px;
+        margin: 30px auto;   
+    }
+   
+    .textholder p{
+        text-align: center;
+        font-size: 1.2em;
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    .textholder h3{
+        font-size: 2em;
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    #welcome h2{
+        margin-bottom: 65px;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+    
+
